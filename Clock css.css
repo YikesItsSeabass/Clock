@@ -1,0 +1,81 @@
+body {
+  background-color: #ce99ff;
+}
+#top {
+  margin-top: 100px;
+  height: 100px;
+}
+#mid {
+  margin-top: 100px;
+  height: 100px;
+}
+#bot {
+  margin-top: 100px;
+  height: 100px;
+}
+#hbox {
+  height: 100px;
+  width:100px;
+  background-color: #f3e6ff;
+  margin-left: 50px;
+  float:left;
+}
+#mbox {
+  height: 100px;
+  width:100px;
+  background-color: #f3e6ff;
+  margin-left: 110px;
+  float:left;
+  clear:left;
+}
+#sbox {
+  height: 100px;
+  width:100px;
+  background-color: #f3e6ff;
+  margin-left: 170px;
+  float:left;
+  clear:left;
+}
+
+#ybox {
+  height: 100px;
+  width:100px;
+  background-color: #f3e6ff;
+  margin-right: 50px;
+  float:right;
+  clear:right;
+}
+#mobox {
+  height: 100px;
+  width:100px;
+  background-color: #f3e6ff;
+  margin-right: 110px;
+  float: right;
+  clear:right;
+}
+#dbox {
+  height: 100px;
+  width:100px;
+  background-color: #f3e6ff;
+  margin-right: 170px;
+  float: right;
+  clear:right;
+}
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 60px;
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-right: auto;
+}
+img {
+  margin-left: 250px;
+  height: 300px;
+  width: 300px;
+}
+.center {
+  text-align: center;
+}
+#luck {
+  clear: both;
+}
