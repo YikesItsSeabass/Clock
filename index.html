@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clock thing</title>
+    <meta charset="UTF-8">
+    <link href="Clock css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<p class="center"> Good Luck </p>
+	<div id="top">
+		<div id="hbox">
+			<p id="hour" class="center"></p>
+		</div>
+		<div id="ybox">
+			<p id="year" class="center"></p>
+		</div>
+	</div>
+	<div id="mid">
+		<div id="mbox">
+			<p id="min" class="center"></p>
+		</div>
+		<img src="https://www.freeiconspng.com/uploads/black-puzzle-icon-13.png">
+		<div id="mobox">
+			<p id="month" class="center"></p>
+		</div>
+	</div>
+	<div id="bot">
+		<div id="sbox">
+			<p id="sec" class="center"></p>
+		</div>
+		<div id="dbox">
+			<p id="date" class="center"></p>
+		</div>
+	</div>
+<script>
+	var time = setInterval(clock, 1000);
+
+	function clock() {
+   	 var a = new Date();
+    	document.getElementById("hour").innerHTML = a.getHours();
+	 var b = new Date();
+    	document.getElementById("min").innerHTML = b.getMinutes();
+     var c = new Date();
+    	document.getElementById("sec").innerHTML = c.getSeconds();
+     var d = new Date();
+		document.getElementById("year").innerHTML = d.getFullYear() - 2000;
+	 var e = new Date();
+		document.getElementById("month").innerHTML = e.getMonth() + 1;
+	 var f = new Date();
+		document.getElementById("date").innerHTML = f.getDate();
+}
+</script>
+</body>
+</html>
